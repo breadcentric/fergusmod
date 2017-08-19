@@ -7,7 +7,7 @@ I (the uncle) know hardly anything about Minecraft. Fergus knows nothing about p
 Thank you to all the smart people at [Forge](http://files.minecraftforge.net/) and [McJty](https://www.mcjty.eu/) for all the awesome work they have done.
 
 ## What we will try to do:
-* new resource block: blueastone (in progress)
+* new resource block: bluestone (in progress)
 * an armour set
 * tools made with the new resource
 * a purse, or a bag, I don't understand just yet
@@ -18,7 +18,7 @@ Thank you to all the smart people at [Forge](http://files.minecraftforge.net/) a
 
 ## Resource
 * name: Blue stone
-* unlocalized name: bluestome
+* unlocalized name: bluestone
 * creative tab: misc (for now)
 
 # Stories to read
