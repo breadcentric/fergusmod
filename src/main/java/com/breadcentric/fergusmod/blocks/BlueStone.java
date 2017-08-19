@@ -1,5 +1,6 @@
-package com.breadcentric.fergusmod;
+package com.breadcentric.fergusmod.blocks;
 
+import com.breadcentric.fergusmod.ExampleMod;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
