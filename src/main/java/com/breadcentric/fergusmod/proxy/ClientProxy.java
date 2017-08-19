@@ -2,6 +2,7 @@ package com.breadcentric.fergusmod.proxy;
 
 import com.breadcentric.fergusmod.FergusMod;
 import com.breadcentric.fergusmod.ModBlocks;
+import com.breadcentric.fergusmod.ModItems;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.client.model.obj.OBJLoader;
 import net.minecraftforge.fml.common.Mod;
@@ -35,6 +36,7 @@ public class ClientProxy extends CommonProxy {
     @SubscribeEvent
     public static void registerModels(ModelRegistryEvent event) {
         ModBlocks.initModels();
+        ModItems.initModels();
     }
 
 }

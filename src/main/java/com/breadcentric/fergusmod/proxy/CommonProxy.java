@@ -1,7 +1,9 @@
 package com.breadcentric.fergusmod.proxy;
 
 import com.breadcentric.fergusmod.ModBlocks;
+import com.breadcentric.fergusmod.ModItems;
 import com.breadcentric.fergusmod.blocks.BlueStone;
+import com.breadcentric.fergusmod.items.ItemBluestoneSword;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
@@ -11,6 +13,8 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+
+import static com.breadcentric.fergusmod.ModItems.BLUESTONE;
 
 @Mod.EventBusSubscriber
 public class CommonProxy {
@@ -38,6 +42,7 @@ public class CommonProxy {
                         new ItemBlock(ModBlocks.blueStone)
                                 .setRegistryName(
                                         ModBlocks.blueStone.getRegistryName()));
+        event.getRegistry().register(new ItemBluestoneSword(BLUESTONE));
     }
 
 }
