@@ -1,5 +1,7 @@
-package com.breadcentric.fergusmod;
+package com.breadcentric.fergusmod.proxy;
 
+import com.breadcentric.fergusmod.FergusMod;
+import com.breadcentric.fergusmod.ModBlocks;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.client.model.obj.OBJLoader;
 import net.minecraftforge.fml.common.Mod;
@@ -15,7 +17,7 @@ public class ClientProxy extends CommonProxy {
     public void preInit(FMLPreInitializationEvent e) {
         super.preInit(e);
 
-        OBJLoader.INSTANCE.addDomain(ExampleMod.MODID);
+        OBJLoader.INSTANCE.addDomain(FergusMod.MODID);
 
     }
 

@@ -1,6 +1,6 @@
 package com.breadcentric.fergusmod.blocks;
 
-import com.breadcentric.fergusmod.ExampleMod;
+import com.breadcentric.fergusmod.FergusMod;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
@@ -14,7 +14,7 @@ public class BlueStone extends Block {
 
     public BlueStone() {
         super(Material.ROCK);
-        setUnlocalizedName(ExampleMod.MODID + ".bluestone");
+        setUnlocalizedName(FergusMod.MODID + ".bluestone");
         setRegistryName("bluestone");
         setCreativeTab(CreativeTabs.MISC);
     }

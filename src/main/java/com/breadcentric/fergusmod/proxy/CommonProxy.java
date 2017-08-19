@@ -1,5 +1,6 @@
-package com.breadcentric.fergusmod;
+package com.breadcentric.fergusmod.proxy;
 
+import com.breadcentric.fergusmod.ModBlocks;
 import com.breadcentric.fergusmod.blocks.BlueStone;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
