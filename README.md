@@ -31,3 +31,4 @@ Thank you to all the smart people at [Forge](http://files.minecraftforge.net/) a
 * [I shall write a Minecraft mod. Day #6](https://steemit.com/programming/@breadcentric/i-shall-write-a-minecraft-mod-day-6)
 * [I shall write a Minecraft mod. Day #7](https://steemit.com/programming/@breadcentric/i-shall-write-a-minecraft-mod-day-7)
 * [I shall write a Minecraft mod. Day #8](https://steemit.com/programming/@breadcentric/i-shall-write-a-minecraft-mod-day-8)
+* [I shall write a Minecraft mod. Day #9](https://steemit.com/programming/@breadcentric/i-shall-write-a-minecraft-mod-day-9)
