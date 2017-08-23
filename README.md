@@ -7,19 +7,24 @@ I (the uncle) know hardly anything about Minecraft. Fergus knows nothing about p
 Thank you to all the smart people at [Forge](http://files.minecraftforge.net/) and [McJty](https://www.mcjty.eu/) for all the awesome work they have done.
 
 ## What we will try to do:
-* new resource block: bluestone (in progress)
+* new resource block: bluestone
 * an armour set
 * tools made with the new resource
-* a purse, or a bag, I don't understand just yet
+* a purse, or a bag, I don't understand what he means, I don't think he does.
 
 ## Where we are learning from:
 * https://wiki.mcjty.eu/modding/index.php
 * http://mcforge.readthedocs.io/en/latest/
+* others (I list sources in the stories below)
 
 ## Resource
-* name: Blue stone
-* unlocalized name: bluestone
+* name: Bluestone
 * creative tab: misc (for now)
+* the resource is available in the game, just dig around
+
+## Weapons
+* a bluestone sword
+  * it is craftable just like any other sword, with two bluestones and a stick
 
 # Stories to read
 * [I shall write a Minecraft mod. Day #0](https://steemit.com/programming/@breadcentric/i-shall-write-a-minecraft-mod-day-0)
@@ -32,3 +37,4 @@ Thank you to all the smart people at [Forge](http://files.minecraftforge.net/) a
 * [I shall write a Minecraft mod. Day #7](https://steemit.com/programming/@breadcentric/i-shall-write-a-minecraft-mod-day-7)
 * [I shall write a Minecraft mod. Day #8](https://steemit.com/programming/@breadcentric/i-shall-write-a-minecraft-mod-day-8)
 * [I shall write a Minecraft mod. Day #9](https://steemit.com/programming/@breadcentric/i-shall-write-a-minecraft-mod-day-9)
+* [I shall write a Minecraft mod. Day #10](https://steemit.com/programming/@breadcentric/i-shall-write-a-minecraft-mod-day-10)
