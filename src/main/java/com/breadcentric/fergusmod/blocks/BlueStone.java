@@ -17,6 +17,7 @@ public class BlueStone extends Block {
         setUnlocalizedName(FergusMod.MODID + ".bluestone");
         setRegistryName("bluestone");
         setCreativeTab(CreativeTabs.MISC);
+        setLightLevel(1);
     }
 
     @SideOnly(Side.CLIENT)
