@@ -1,17 +1,12 @@
 package com.breadcentric.fergusmod.proxy;
 
-import com.breadcentric.fergusmod.FergusMod;
 import com.breadcentric.fergusmod.ModBlocks;
-import com.breadcentric.fergusmod.ModItems;
 import com.breadcentric.fergusmod.blocks.BlueStone;
 import com.breadcentric.fergusmod.generator.BluestoneGenerator;
 import com.breadcentric.fergusmod.items.ItemBluestoneSword;
 import net.minecraft.block.Block;
-import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
-import net.minecraft.item.ItemStack;
-import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -31,16 +26,6 @@ public class CommonProxy {
 
     public void init(FMLInitializationEvent e) {
         GameRegistry.registerWorldGenerator(new BluestoneGenerator(), 10);
-
-        GameRegistry.addShapedRecipe(
-                new ResourceLocation(FergusMod.MODID, "bluestonesword"),
-                null, new ItemStack(ModItems.itemBluestoneSword),
-                " S ",
-                " S ",
-                " T ",
-                'S', Item.getItemFromBlock(ModBlocks.blueStone),
-                'T', Items.STICK
-        );
     }
 
     public void postInit(FMLPostInitializationEvent e) {

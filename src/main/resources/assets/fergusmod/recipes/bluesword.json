@@ -1,0 +1,19 @@
+{
+  "result": {
+    "item": "fergusmod:bluestonesword"
+  },
+  "pattern": [
+    " B ",
+    " B ",
+    " S "
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "B": {
+      "item": "fergusmod:bluestone"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  }
+}
