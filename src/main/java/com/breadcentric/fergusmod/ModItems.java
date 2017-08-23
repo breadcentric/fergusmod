@@ -14,7 +14,7 @@ public class ModItems {
             3,
             1000,
             15.0F,
-            4.0F,
+            14.0F,
             30
     );
 
