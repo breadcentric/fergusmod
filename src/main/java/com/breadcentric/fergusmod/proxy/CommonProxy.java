@@ -3,6 +3,7 @@ package com.breadcentric.fergusmod.proxy;
 import com.breadcentric.fergusmod.ModBlocks;
 import com.breadcentric.fergusmod.blocks.BluestoneOre;
 import com.breadcentric.fergusmod.generator.BluestoneOreGenerator;
+import com.breadcentric.fergusmod.items.Bluestone;
 import com.breadcentric.fergusmod.items.ItemBluestoneSword;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
@@ -44,6 +45,7 @@ public class CommonProxy {
                         new ItemBlock(ModBlocks.bluestoneOre)
                                 .setRegistryName(
                                         ModBlocks.bluestoneOre.getRegistryName()));
+        event.getRegistry().register(new Bluestone());
         event.getRegistry().register(new ItemBluestoneSword(BLUESTONE));
     }
 

@@ -16,7 +16,7 @@ public class BluestoneOre extends Block {
         super(Material.ROCK);
         setUnlocalizedName(FergusMod.MODID + ".bluestoneore");
         setRegistryName("bluestoneore");
-        setCreativeTab(CreativeTabs.MISC);
+        setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
         setLightLevel(1);
     }
 

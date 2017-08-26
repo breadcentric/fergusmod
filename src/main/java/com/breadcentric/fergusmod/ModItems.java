@@ -1,5 +1,6 @@
 package com.breadcentric.fergusmod;
 
+import com.breadcentric.fergusmod.items.Bluestone;
 import com.breadcentric.fergusmod.items.ItemBluestoneSword;
 import net.minecraft.item.Item;
 import net.minecraftforge.common.util.EnumHelper;
@@ -18,11 +19,15 @@ public class ModItems {
             30
     );
 
+    @GameRegistry.ObjectHolder("fergusmod:bluestone")
+    public static Bluestone bluestone;
+
     @GameRegistry.ObjectHolder("fergusmod:bluestonesword")
     public static ItemBluestoneSword itemBluestoneSword;
 
     @SideOnly(Side.CLIENT)
     public static void initModels() {
+        bluestone.initModel();
         itemBluestoneSword.initModel();
     }
 
