@@ -1,8 +1,8 @@
 package com.breadcentric.fergusmod.proxy;
 
 import com.breadcentric.fergusmod.ModBlocks;
-import com.breadcentric.fergusmod.blocks.BlueStone;
-import com.breadcentric.fergusmod.generator.BluestoneGenerator;
+import com.breadcentric.fergusmod.blocks.BluestoneOre;
+import com.breadcentric.fergusmod.generator.BluestoneOreGenerator;
 import com.breadcentric.fergusmod.items.ItemBluestoneSword;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
@@ -25,7 +25,7 @@ public class CommonProxy {
     }
 
     public void init(FMLInitializationEvent e) {
-        GameRegistry.registerWorldGenerator(new BluestoneGenerator(), 10);
+        GameRegistry.registerWorldGenerator(new BluestoneOreGenerator(), 10);
     }
 
     public void postInit(FMLPostInitializationEvent e) {
@@ -33,7 +33,7 @@ public class CommonProxy {
 
     @SubscribeEvent
     public static void registerBlocks(RegistryEvent.Register<Block> event) {
-        event.getRegistry().register(new BlueStone());
+        event.getRegistry().register(new BluestoneOre());
     }
 
     @SubscribeEvent
@@ -41,9 +41,9 @@ public class CommonProxy {
         event
                 .getRegistry()
                 .register(
-                        new ItemBlock(ModBlocks.blueStone)
+                        new ItemBlock(ModBlocks.bluestoneOre)
                                 .setRegistryName(
-                                        ModBlocks.blueStone.getRegistryName()));
+                                        ModBlocks.bluestoneOre.getRegistryName()));
         event.getRegistry().register(new ItemBluestoneSword(BLUESTONE));
     }
 

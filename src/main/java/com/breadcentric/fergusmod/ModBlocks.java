@@ -1,22 +1,22 @@
 package com.breadcentric.fergusmod;
 
-import com.breadcentric.fergusmod.blocks.BlueStone;
+import com.breadcentric.fergusmod.blocks.BluestoneOre;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class ModBlocks {
 
-    @GameRegistry.ObjectHolder("fergusmod:bluestone")
-    public static BlueStone blueStone;
+    @GameRegistry.ObjectHolder("fergusmod:bluestoneore")
+    public static BluestoneOre bluestoneOre;
 
     @SideOnly(Side.CLIENT)
     public static void initModels() {
-        blueStone.initModel();
+        bluestoneOre.initModel();
     }
 
     @SideOnly(Side.CLIENT)
     public static void initItemModels() {
-        blueStone.initItemModel();
+        bluestoneOre.initItemModel();
     }
 }

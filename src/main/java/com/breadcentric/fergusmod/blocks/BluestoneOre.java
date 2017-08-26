@@ -10,12 +10,12 @@ import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-public class BlueStone extends Block {
+public class BluestoneOre extends Block {
 
-    public BlueStone() {
+    public BluestoneOre() {
         super(Material.ROCK);
-        setUnlocalizedName(FergusMod.MODID + ".bluestone");
-        setRegistryName("bluestone");
+        setUnlocalizedName(FergusMod.MODID + ".bluestoneore");
+        setRegistryName("bluestoneore");
         setCreativeTab(CreativeTabs.MISC);
         setLightLevel(1);
     }

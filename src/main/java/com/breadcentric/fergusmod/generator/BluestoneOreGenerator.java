@@ -13,18 +13,18 @@ import java.util.Random;
 
 import static java.lang.String.format;
 
-public class BluestoneGenerator implements IWorldGenerator {
-    private WorldGenerator bluestoneGenerator;
+public class BluestoneOreGenerator implements IWorldGenerator {
+    private WorldGenerator bluestoneOreGenerator;
 
-    public BluestoneGenerator() {
-        bluestoneGenerator = new WorldGenMinable(ModBlocks.blueStone.getDefaultState(), 8);
+    public BluestoneOreGenerator() {
+        bluestoneOreGenerator = new WorldGenMinable(ModBlocks.bluestoneOre.getDefaultState(), 8);
     }
 
     @Override
     public void generate(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider) {
         switch (world.provider.getDimension()) {
             case 0: //Overworld
-                this.runGenerator(this.bluestoneGenerator, world, random, chunkX, chunkZ, 20, 0, 64);
+                this.runGenerator(this.bluestoneOreGenerator, world, random, chunkX, chunkZ, 20, 0, 64);
 
                 break;
             case -1: //Nether

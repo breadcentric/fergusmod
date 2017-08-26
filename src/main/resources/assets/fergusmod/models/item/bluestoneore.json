@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "fergusmod:items/bluestone"
+    "layer0": "fergusmod:items/bluestoneore"
   }
 }
