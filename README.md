@@ -18,9 +18,14 @@ Thank you to all the smart people at [Forge](http://files.minecraftforge.net/) a
 * others (I list sources in the stories below)
 
 ## Resource
-* name: Bluestone
+* name: Bluestone ore
 * creative tab: misc (for now)
 * the resource is available in the game, just dig around
+
+## Resource 2
+* name: Bluestone
+* creative tab: misc (for now)
+* the resource needs to be smelted from the Bluestone ore
 
 ## Weapons
 * a bluestone sword
@@ -38,3 +43,4 @@ Thank you to all the smart people at [Forge](http://files.minecraftforge.net/) a
 * [I shall write a Minecraft mod. Day #8](https://steemit.com/programming/@breadcentric/i-shall-write-a-minecraft-mod-day-8)
 * [I shall write a Minecraft mod. Day #9](https://steemit.com/programming/@breadcentric/i-shall-write-a-minecraft-mod-day-9)
 * [I shall write a Minecraft mod. Day #10](https://steemit.com/programming/@breadcentric/i-shall-write-a-minecraft-mod-day-10)
+* [I shall write a Minecraft mod. Day #11](https://steemit.com/programming/@breadcentric/i-shall-write-a-minecraft-mod-day-11)
