@@ -10,7 +10,7 @@
   "type": "forge:ore_shaped",
   "key": {
     "B": {
-      "item": "fergusmod:bluestoneore"
+      "item": "fergusmod:bluestone"
     },
     "S": {
       "item": "minecraft:stick"
